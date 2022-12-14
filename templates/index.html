@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soccer Prediction</title>
+
+    <link rel="stylesheet" href="static/css/main.css">
+
+</head>
+
+
+
+
+<body>
+    <h1>Soccer Prediction</h1>
+    <p>Please make a prediction for the upcoming soccer match between Morocco and France:</p>
+<form method="POST" action="/">
+    <label for="name">Name/Nickname:</label>
+    <input type="text" name="name" id="name">
+
+    <label for="morocco">Morocco:</label>
+    <input type="number" name="morocco" value="Morocco" id="morocco">
+
+    <label for="france">France:</label>
+    <input type="number" name="france" value="France" id="france">
+
+    <label for="extra">Extra Time: </label>
+    <select name="extra" id="extra">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+
+    <input type="submit" value="Submit Prediction">
+</form>
+
+
+<p>
+    <a href="/results">View Results</a>
+</p>
+
+
+</body>
+</html>

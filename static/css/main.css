@@ -1,0 +1,62 @@
+body {
+  text-align: center; /* Centers the content of the page */
+  font-size: 240%; /* Increases the size of the text */
+}
+
+button {
+  font-size: 240%; /* Increases the size of the text inside the button */
+  padding: 20px 40px; /* Increases the size of the button itself */
+}
+
+
+@media (min-width: 768px) {
+  input {
+    font-size: 25px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+  }
+  button {
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  form {
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+
+select {
+    font-size: 32px;
+    height: 80px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    font-size: 100%;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
