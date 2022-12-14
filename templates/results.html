@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soccer Prediction</title>
+
+    <link rel="stylesheet" href="static/css/results.css">
+
+   <a href="http://mugren.me" class="button">Home</a>
+
+
+
+
+</head>
+<body>
+
+
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Name</th>
+        <th>Morocco</th>
+        <th>France</th>
+        <th>Extra Time</th>
+    </tr>
+    {% for prediction in predictions %}
+    <tr>
+        <td>{{ prediction.id }}</td>
+        <td>{{ prediction.date }}</td>
+        <td>{{ prediction.time }}</td>
+        <td>{{ prediction.name }}</td>
+        <td>{{ prediction.morocco }}</td>
+        <td>{{ prediction.france }}</td>
+        <td>{{ prediction.extra }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+
+
+</body>
+</html>
